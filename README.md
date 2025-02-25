@@ -6,49 +6,74 @@
   <img src=".github/preview.png" width="100%" />
 </p>
 
-## 💻 Projeto
+## 🚧 Project Status
 
-Esse projeto é uma landing page da empresa **Blizzard**, ela é composta por um menu de navegação, um banner hero com as informações dos principais jogos da empresa(Diablo, HearthStone e World of Warcraft), a listagem dos jogos exclusivos e um rodapé com informações do download do app battle.net.
+This project is currently under development. Some features may be incomplete or subject to change.
 
-Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Gilberto Prado**](https://www.linkedin.com/in/gilberto-insanydesign/), [clique aqui](https://www.brchallenges.com/desafio/blizzard) para saber mais detalhes do desafio.
+## 💻 Project
 
-## 🚀 Tecnologias
+This project is a landing page for **Blizzard**, featuring a navigation menu, a hero banner showcasing the company's main games (*Diablo*, *HearthStone*, and *World of Warcraft*), a section displaying exclusive games, and a footer with information about downloading the **Battle.net** app.
 
-- [Item 1](http://localhost:3000/)
-- [Item 2](http://localhost:3000/)
-- [Item 3](http://localhost:3000/)
+To streamline the development process, a **Figma** prototype was used as a reference. The layout was designed by [**Gilberto Prado**](https://www.linkedin.com/in/gilberto-insanydesign/).  
+[Click here](https://www.brchallenges.com/desafio/blizzard) for more details about the challenge.
 
-## 📝 Requisitos do desafio
+## 🚀 Technologies
 
-### Nível Fácil
+- [Item 1] HTML
+- [Item 2] CSS
+- [Item 3] JavaScript
+- [Item 4] React.js
+- [Item 5] Vite
 
-- [ ]  Criar as seções: **Menu**, **Banner hero**, **Footer**.
+## 🛠️ Installation and Setup
 
-- [ ]  O texto e o ícone do botão “Baixar jogo” devem ser alterados conforme o sistema operacional do usuário que estiver acessando a página. ( [material de apoio](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent))
+To run this project locally, follow these steps:
 
-- [ ]  Aplicar efeito de *hover* nas opções do menu de navegação.
+### Prerequisites
+- You need to have **Node.js** and **npm** (or **yarn**) installed.
 
-- [ ]  Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
 
-### Nível Médio
-### 
+2. Navigate to the project folder:
+   ```cd your-repo
 
-- [ ]  Todos os requisitos do nivel fácil.
+3. Install dependencies:
+    npm install
+    # or
+    yarn install
 
-- [ ]  Criar as seções: **Menu**, **Banner hero**, **Jogos Exclusivo**, **Footer**.
+4. Start the development server:
+    npm run dev
+    # or
+    yarn dev
 
-- [ ]  Buscar a lista de jogos via api. ([acessar endpoint](https://api-brchallenges.vercel.app/api/blizzard/games))
+5. Open your browser and access:
+    http://localhost:5173
 
-- [ ]  Aplicar efeito de hover nas imagens dos jogos da seção **Jogos Exclusivos**.
 
-- [ ]  Alterar as informações da seção **Banner Hero** ao selecionar uma opção no menu lateral. Os jogos disponíveis são **Diablo**, **HearthStone** e **World of Warcraft**.
+## 📝 Challenge Requirements
 
-### Nível Difícil
+### Hard Level
 
-- [ ]  Todos os requisitos do nivel fácil e médio.
+- [ ]  Create the following sections: **Menu**, **Hero Banner**, **Exclusive Games**, **Footer**.
 
-- [ ]  Ao clicar no botão **Logar** do menu de navegação, deverá ser exibido o modal de login.
+- [ ]  The text and icon of the "Download Game" button must change according to the operating system of the user accessing the page. ( [Reference material)](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent))
 
-- [ ]  Criar componente de *dropdown* para as opções **Jogos** e **Esportes** do menu de navegação.
+- [ ]  Apply a *hover* effect to the navigation menu options.
 
-- [ ]  Deverá ser executado um *gif* do jogo quando ocorrer o evento de *hover* na capa do trailer
+- [ ]  Ensure responsiveness for the following resolutions: 1920px, 1440px, 768px, and 375px.
+
+- [ ]  Fetch the game list via API. ([Acess endpoint](https://api-brchallenges.vercel.app/api/blizzard/games))
+
+- [ ]  Apply a *hover* effect to the images in the **Exclusive Games** section.
+
+- [ ]  Change the **Hero Banner** section’s information when selecting an option in the side menu. The available games are **Diablo**, **HearthStone** and **World of Warcraft**.
+
+- [ ]  When clicking the **Login** button in the navigation menu, a login modal should be displayed.
+
+- [ ]  Create a *dropdown* component for the **Games** and **Sports** menu options.
+
+- [ ]  A *gif* of the game should be played when hovering over the trailer cover.
